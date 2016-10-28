@@ -1,0 +1,24 @@
+08-17-2016 @ 20:43:30 - __construct - Info: Connected to PayPal Braintree successfully. Merchant ID = n6zmg6sq8dv2cht3
+10-13-2016 @ 14:33:29 - process_payment - Info: Beginning processing payment for order 389 for the amount of 169.99
+10-13-2016 @ 14:33:29 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-13-2016 @ 14:33:31 - process_payment - Info: Successfully processed payment, transaction id = 7n549c5h, status = submitted_for_settlement
+10-13-2016 @ 14:33:31 - process_payment - Info: Completed processing of payment for order 389
+10-15-2016 @ 11:41:41 - process_payment - Info: Beginning processing payment for order 421 for the amount of 169.99
+10-15-2016 @ 11:41:41 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-15-2016 @ 11:41:52 - process_payment - Info: Successfully processed payment, transaction id = jceasgb5, status = settling
+10-15-2016 @ 11:41:53 - process_payment - Info: Completed processing of payment for order 421
+10-16-2016 @ 13:07:33 - process_payment - Info: Beginning processing payment for order 422 for the amount of 169.99
+10-16-2016 @ 13:07:33 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-16-2016 @ 13:07:48 - process_payment - Info: Successfully processed payment, transaction id = pb94yjjy, status = settling
+10-16-2016 @ 13:07:49 - process_payment - Info: Completed processing of payment for order 422
+10-17-2016 @ 13:52:31 - process_payment - Info: Beginning processing payment for order 432 for the amount of 339.98
+10-17-2016 @ 13:52:31 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-17-2016 @ 13:52:31 - process_payment - Error: The paypal_braintree_nonce was unexpectedly empty
+10-17-2016 @ 13:53:10 - process_payment - Info: Beginning processing payment for order 432 for the amount of 339.98
+10-17-2016 @ 13:53:10 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-17-2016 @ 13:53:11 - process_payment - Info: Successfully processed payment, transaction id = c50jr62d, status = submitted_for_settlement
+10-17-2016 @ 13:53:12 - process_payment - Info: Completed processing of payment for order 432
+10-17-2016 @ 18:24:00 - process_payment - Info: Beginning processing payment for order 433 for the amount of 169.99
+10-17-2016 @ 18:24:00 - process_payment - Info: Merchant ID = n6zmg6sq8dv2cht3
+10-17-2016 @ 18:24:01 - process_payment - Info: Successfully processed payment, transaction id = 3hvfwr6p, status = submitted_for_settlement
+10-17-2016 @ 18:24:02 - process_payment - Info: Completed processing of payment for order 433

@@ -1,0 +1,132 @@
+09-24-2016 @ 19:49:42 - Info: Begin processing payment for order 300 for the amount of 157.87
+09-24-2016 @ 19:49:42 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 15787
+    [description] => Dragon Heatwear - Order 300
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_18xRluDGmWCIRcbPa9yLwWR5
+)
+
+09-24-2016 @ 19:49:42 - Processing response: stdClass Object
+(
+    [id] => ch_18xRlyDGmWCIRcbPvobOBRv2
+    [object] => charge
+    [amount] => 15787
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18xRlyDGmWCIRcbPB2glC7Uv
+            [object] => balance_transaction
+            [amount] => 15787
+            [available_on] => 1475366400
+            [created] => 1474768182
+            [currency] => usd
+            [description] => Dragon Heatwear - Order 300
+            [fee] => 488
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 488
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 15299
+            [source] => ch_18xRlyDGmWCIRcbPvobOBRv2
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18xRlyDGmWCIRcbPvobOBRv2
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1474768182
+    [currency] => usd
+    [customer] => 
+    [description] => Dragon Heatwear - Order 300
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18xRlyDGmWCIRcbPvobOBRv2/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18xRluDGmWCIRcbPMR1jnZAT
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 5
+            [exp_year] => 2019
+            [fingerprint] => FamzhW6XuT0pR3fB
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => chaserwaters@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-24-2016 @ 19:49:43 - Successful charge: ch_18xRlyDGmWCIRcbPvobOBRv2

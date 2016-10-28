@@ -9,36 +9,7 @@ Template Name: landing-page
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     <body>
-        <div class="edges">
-            <div class="header-div">
-                <img src="images/logo.png" class="logo">
-                    <div class="nav-links-div">
-                        <a href="home" class="nav-links">HOME</a>
-                        <a href="Shop" class="nav-links">SHOP</a>
-                        <a href="Contact" class="nav-links">CONTACT</a>
-                    </div>
-                     <div class="social-link-div">
-						
-            <?php
-				if ( class_exists( 'woocommerce' ) ) {
-					echo '<ul class="nav wc-nav">';
-					woocommerce_cart_link();
-					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
-					echo '</ul>';
-				}
-			?>
-                        <img src="images/facebook.png" class="facebook-icon">
-                        <img src="images/instagram.png">
-                    </div>
-                    <div class="float:right;">
-                        <a href="myaccount" class="nav-links">MY ACCOUNT</a>
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <div class="free-shipping-div">
-            <h3 class="free-shipping-text">FREE SHIPPING ON ALL ORDERS - ENDS OCT 31</h3>
-        </div>
+     
         <a href="http://catcode.com/linkguide/clickimage.html">
             <div class="hero-image"></div>
         </a>
